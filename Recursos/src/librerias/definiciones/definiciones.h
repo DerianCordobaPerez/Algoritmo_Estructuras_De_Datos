@@ -1,0 +1,7 @@
+#ifndef DEFINICIONES_H
+#define DEFINICIONES_H
+
+#define LONGITUD 10
+#define LONGITUD_CARACTERES 15
+
+#endif
