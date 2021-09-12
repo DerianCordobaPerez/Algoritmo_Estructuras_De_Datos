@@ -3,9 +3,9 @@
 int main(int argc, char const **argv) {
 
     if(argc != 2)
-        error();
+        error("Error con la cantidad de parametros");
 
-    char *temp = asignacion_de_memoria(strlen(argv[1]));
+    char *temp = (char *)asignacion_de_memoria(strlen(argv[1]));
     strcpy(temp, argv[1]);
     reversaPalabra(temp, 0, (unsigned int)strlen(temp) - 1);
 

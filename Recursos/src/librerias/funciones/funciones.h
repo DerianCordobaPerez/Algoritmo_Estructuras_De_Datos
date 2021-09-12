@@ -7,7 +7,7 @@
  * @param void
  * @return void
 */
-extern void error(void);
+extern void error(char *);
 
 /**
  * Obtiene el factorial de un numero

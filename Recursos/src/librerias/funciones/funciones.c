@@ -1,5 +1,5 @@
-extern void error(void) {
-    perror("No se asigno memoria");
+extern void error(char *mensaje) {
+    perror(mensaje);
     exit(0);
 }
 
@@ -12,7 +12,7 @@ extern int factorial(int numero) {
 extern void *asignacion_de_memoria(int cantidad) {
     void *tmp;
     if((tmp = (void *)malloc(cantidad * sizeof(void))) == NULL)
-        error();
+        error("Error al asignar memoria");
     return tmp;
 }
 
