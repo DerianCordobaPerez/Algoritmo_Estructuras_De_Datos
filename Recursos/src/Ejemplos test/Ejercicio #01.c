@@ -1,4 +1,5 @@
 #include <assert.h>
+#include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
 
@@ -13,6 +14,8 @@ void main(void) {
     assert(esPalindroma("abba", 0, strlen("abba") - 1));
     
     assert(esPalindroma("anona", 0, strlen("anona") - 1));
+
+    printf("\nTodos los test fueron pasados\n");
 
 }
 

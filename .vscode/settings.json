@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "cabeceras.h": "c",
+        "funciones.h": "c"
+    }
+}

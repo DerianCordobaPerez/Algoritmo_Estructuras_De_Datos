@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdbool.h>
 
 // Enlace con la cabecera de funciones
 #include "../funciones/funciones.h"

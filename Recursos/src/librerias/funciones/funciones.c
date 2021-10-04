@@ -1,3 +1,5 @@
+#include "../definiciones/definiciones.h"
+
 extern void error(char *mensaje) {
     perror(mensaje);
     exit(0);
